@@ -1,6 +1,6 @@
 plugins {
     java
-    id("org.web3j") version "4.9.8"
+    id("org.web3j") version "4.9.8" // Plugin version must be a string literal; matches web3jVersion below
 }
 
 group = "org.web3j"
@@ -20,7 +20,7 @@ configure<org.web3j.gradle.plugin.Web3jExtension> {
 }
 
 val web3jVersion = "4.9.8"
-val logbackVersion = "1.2.3"
+val logbackVersion = "1.2.13"
 val junitVersion = "4.12"
 
 dependencies {
