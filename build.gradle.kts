@@ -18,8 +18,8 @@ configure<org.web3j.gradle.plugin.Web3jExtension> {
 }
 
 val web3jVersion = "4.5.0"
-val logbackVersion = "1.2.3"
-val junitVersion = "4.12"
+val logbackVersion = "1.2.13"
+val junitVersion = "4.13.2"
 
 dependencies {
     implementation("org.web3j:core:$web3jVersion")
